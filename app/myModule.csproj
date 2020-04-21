@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+    <!--Does not work-->
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.7.0-preview1.19504.10"/>
+		<!--Below versions worked-->
+    <!--<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.6.0"/>-->
+    <!--<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.5.0"/>-->
+		<PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="160.2004021.0" IncludeAssets="All" />
+		<PackageReference Include="PowerShellStandard.Library" Version="5.1.0">
+			<PrivateAssets>All</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
