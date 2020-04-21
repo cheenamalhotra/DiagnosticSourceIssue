@@ -27,7 +27,7 @@
       at System.Management.Automation.CommandProcessor.ProcessRecord()
     ```
 
-3. Run the same steps in a different Powershell Session, with either of the below variables:
+3. Run the same steps in a different Powershell Session, with either of the below variations:
     - Use System.Diagnostics.DiagnosticSource v4.6.0
     - Run in PowerShell v7.0.0
 
